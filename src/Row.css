@@ -1,0 +1,25 @@
+.Omovie{
+    display: flex;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    
+}
+.Imovie{
+    width: 100%;
+    max-height: 150px;
+    padding: 10px;
+    transition: 0.3s ease-in-out;
+}
+
+.Otitle{
+    margin-left: 30px;
+
+}
+
+.Omovie::-webkit-scrollbar{
+    display: none;
+}
+
+.Imovie:hover{
+    transform: scale(1.07);
+}
